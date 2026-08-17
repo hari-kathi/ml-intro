@@ -4,7 +4,7 @@ This is a teaching repo: a parent teaching data science and machine learning to 
 
 ## The learner
 
-- College student with basic Python knowledge — no need to teach syntax basics, but avoid advanced idioms without explanation.
+- College student with basic Python knowledge but no computer-science background. Do not assume Python or CS expertise: comment code liberally (explain what each non-obvious line does, right next to it), introduce every new function or idiom on first use, and avoid advanced idioms (comprehensions, format specs, lambdas) unless the lesson is about them.
 - Very knowledgeable in biology and genetics — lean on that: use biology/genetics datasets, examples, and analogies wherever possible (gene expression, DNA sequences, species traits, epidemiology).
 
 ## Guidelines for generating content

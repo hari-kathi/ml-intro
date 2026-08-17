@@ -23,7 +23,7 @@ Work in a fresh cell at the bottom of `notebook.ipynb` (`df` is already loaded a
 ## 4. Derived measurements
 
 - The lesson created `bill_ratio`. Compute its mean per species. Could you identify a species from its bill ratio alone?
-- Add a column `mass_kg` (body mass in kilograms) and a boolean column `is_heavy` (True if mass is above the overall median).
+- Add a column `mass_kg` (body mass in kilograms) and a column `is_heavy` holding True/False (True if mass is above the overall median — comparing a column to a number gives you exactly that).
 - Cross-tabulate `species` vs `is_heavy`. What does this tell you about Gentoos?
 
 ## 5. Missing-data reasoning

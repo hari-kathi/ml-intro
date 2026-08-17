@@ -27,7 +27,7 @@ Our dataset is a classic from 1936: botanist Edgar Anderson measured sepals and 
 
 ## How to work through it
 
-Open the notebook and run each cell, in order, and *predict the output before running it*:
+Open the notebook and run each cell, in order, and *predict the output before running it*. Every non-obvious code line has a `#` comment right next to it explaining what it does — if a line looks mysterious, read its comment first.
 
 ```bash
 source ../../.venv/bin/activate

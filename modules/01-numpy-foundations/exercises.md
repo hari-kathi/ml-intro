@@ -30,5 +30,5 @@ Work in a fresh notebook cell at the bottom of `notebook.ipynb` (the arrays `X`,
 Fisher's question: can a single measurement identify a species?
 
 - Write a function `guess_species(petal_length)` that returns `"Iris-setosa"` if petal length < 2.5, `"Iris-versicolor"` if < 4.9, else `"Iris-virginica"`.
-- Apply it to all 150 flowers (a loop or list comprehension is fine here) and compute the **accuracy**: what fraction of guesses match `species`?
+- Apply it to all 150 flowers (a plain `for` loop is fine here) and compute the **accuracy**: what fraction of guesses match `species`?
 - You just built a decision rule by eye. In a later module, scikit-learn will learn these thresholds automatically — from the data.
