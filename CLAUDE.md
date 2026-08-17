@@ -14,5 +14,5 @@ This is a teaching repo: a parent teaching data science and machine learning to 
 - Keep lessons hands-on; every concept should come with runnable code the learner can tweak.
 - Use scikit-learn, pandas, numpy, matplotlib, and seaborn.
 - Each module goes in `modules/NN-topic-name/` with `README.md` (lesson), `notebook.ipynb` (runnable code), and `exercises.md` (practice problems, easiest first).
-- Use small, relatable datasets (place them in `datasets/`) — biology and genetics themes are ideal (e.g. iris species, gene expression, heart disease, penguin measurements).
+- Source example datasets from HuggingFace via the `datasets` library (`load_dataset(...).to_pandas()`), verifying the dataset ID exists before using it. Biology and genetics themes are ideal (e.g. `scikit-learn/iris`, `SIH/palmer-penguins`, gene expression, heart disease). Use `datasets/` only for small files that have no good HuggingFace equivalent.
 - Modules should build on earlier ones; state prerequisites at the top of each lesson.
