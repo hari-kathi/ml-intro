@@ -5,8 +5,13 @@ A father–daughter learning project. All lesson modules are generated with AI a
 ## How this repo is organized
 
 - `modules/` — numbered lesson modules (e.g. `01-intro-to-data/`), each with a short lesson, a notebook, and exercises
+- `docs/` — the [curriculum roadmap](docs/curriculum.md), a [big-picture map of ML](docs/the-big-picture.md), a [glossary](docs/glossary.md), and cheat sheets
 - `datasets/` — small datasets used by the modules
 - `projects/` — bigger hands-on projects that combine skills from several modules
+
+**Start here:** read [docs/the-big-picture.md](docs/the-big-picture.md), then follow the
+module order in [docs/curriculum.md](docs/curriculum.md) — NumPy → pandas → scikit-learn →
+neural networks → PyTorch → a malaria-detecting capstone.
 
 ## Getting started
 
